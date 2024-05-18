@@ -1,0 +1,11 @@
+name: QuestSample
+version: '${project.version}'
+main: org.xgaming.questsample.QuestSample
+api-version: '1.20'
+commands:
+  xquest:
+    usage: "/xquest <defeat/collect> <goal>"
+    description: "Generate a quest"
+  xkey:
+    usage: "/xkey <apikey>"
+    description: "Register api key from xgaming"
